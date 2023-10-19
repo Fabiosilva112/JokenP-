@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>P-P-T</title>
+</head>
+<body>
+    <div class="container">
+        <h1>JokenPô</h1>
+
+        <p class="paragraph"><span class="rule">Regra:</span> Quem chegar a <span class="ten">10</span> pontos é o ganhador.</p>
+
+        <div class="div-button">
+            <button id="rock" onclick="myGame('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="myGame('paper')">&#x1f590;</button>
+            <button id="scissors" onclick="myGame('scissors')">&#x270c;</button>
+        </div>
+        <p class="result"></p>
+
+        <p class="you-score">Sua Pontuação:<span class="score1">0</span></p>
+        <p class="machine-score">Pontuação da Alexa:<span class="score2">0</span></p>
+
+        <p><button class="clean">Limpa</button></p>
+    </div>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
